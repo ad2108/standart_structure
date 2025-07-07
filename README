@@ -1,1 +1,25 @@
 # README ;)
+
+Simple standard structure for C++ repositories and projects.
+
+
+# Structure
+
+PATH Listing
+¦   LICENSE
+¦   Makefile
+¦   README
++---src
+¦   ¦   <name>.cpp
+¦   ¦   
+¦   +---header
+¦   ¦       <name>_class.hpp
+¦   ¦       <name>_func.hpp
+¦   ¦       <name>_mod.hpp
+¦   ¦       <name>_obj.hpp
+¦   ¦       <name>_var.hpp
+¦   ¦       
+¦   +---tests
+¦           <name>_test.cpp
++---bin
+            
