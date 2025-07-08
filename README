@@ -5,21 +5,31 @@ Simple standard structure for C++ repositories and projects.
 
 # Structure
 
-PATH Listing
+STRUCTURE
+¦
 ¦   LICENSE
 ¦   Makefile
 ¦   README
-+---src
-¦   ¦   <name>.cpp
-¦   ¦   
-¦   +---header
-¦   ¦       <name>_class.hpp
-¦   ¦       <name>_func.hpp
-¦   ¦       <name>_mod.hpp
-¦   ¦       <name>_obj.hpp
-¦   ¦       <name>_var.hpp
-¦   ¦       
-¦   +---tests
-¦           <name>_test.cpp
+¦   
 +---bin
+¦       prog
+¦       
++---src
+    ¦   name_main.cpp
+    ¦   
+    +---implementation
+    ¦       name_class.cpp
+    ¦       name_func.cpp
+    ¦       name_mod.cpp
+    ¦       name_obj.cpp
+    ¦       name_var.cpp
+    ¦       
+    +---interface
+    ¦       name_class.hpp
+    ¦       name_func.hpp
+    ¦       name_mod.hpp
+    ¦       name_var.hpp
+    ¦       
+    +---tests
+            name_test.cpp
             
